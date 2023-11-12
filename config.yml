@@ -44,10 +44,20 @@ params:
     safari_pinned_tab: /images/favicon.svg
 
   profileMode:
-    enabled: false
+    enabled: false # needs to be explicitly set
+    title: Dan Whitcomb
+    imageUrl: "/images/headshot.jpeg"
+    imageWidth: 240
+    imageHeight: 240
+    imageTitle: Dan the man
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
 
   homeInfoParams:
-    title:
+    title: Dan Whitcomb
     content:
     profile:
       enabled: true # needs to be explicitly set
